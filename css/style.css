@@ -54,6 +54,10 @@ body{
     background-color: #512DA8;
     color: white;
   }
+  .modal-header1{
+    background-color: white;
+    color: black;
+  }
   .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
