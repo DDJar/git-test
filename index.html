@@ -60,7 +60,8 @@
 
         </div>
         <div class="col-12 col-sm-3 align-self-center" id="rtabel">
-          <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="tooltip" data-html="true"
+          <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal"
+          data-target="#reserveModal"
             title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom"
             href="#reserveform">Reserve Table</a>
         </div>
@@ -363,13 +364,12 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title"> Reserve a Table </h5>
+          <h5 class="modal-title "> Reserve a Table </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          <div class="card-body">
+          <div class="card-body ">
             <div class="form-group">
               <!-- Table Guess Count -->
               <div class="input-group row ">
@@ -400,13 +400,13 @@
                 </div>
               </div> <!-- End Smoking -->
               <!-- Table Time -->
-              <br>
-              <div class="input-group date row">
+              <br><br>
+              <div class="input-group row">
                 <div class="col-3">
                   <span id="">Date and Time</span>
                 </div>
-                <div class="col-12 col-sm ml-3">
-                  <div class="row">
+                <div class="col-12 col-sm-9 row">
+                  
                     <div class="col-lg-6">
                       <div class="input-group">
                         <input type='text' class="form-control" placeholder="Date" />
@@ -415,19 +415,18 @@
                     <div class="col-lg-6">
                       <div class="input-group">
                         <input type='text' class="form-control" placeholder="Time" />
-
                       </div>
                     </div>
-                  </div>
+                  
                 </div>
               </div> <!-- End Table Time -->
             </div>
+            <div class="modal-body ">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Reserve Table</button>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Reserve Table</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div> <!-- End Modal Body -->
+         <!-- End Modal Body -->
       </div>
     </div>
   </div>
