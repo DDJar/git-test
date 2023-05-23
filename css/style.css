@@ -85,3 +85,7 @@ height: 300px;
     bottom: 0px;
     z-index: 1;
 }
+.modal-footer1{
+  padding-left: 5.9em;
+  justify-content: flex-start;
+}
