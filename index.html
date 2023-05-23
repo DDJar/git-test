@@ -135,12 +135,12 @@
                 <span class="text" id="">Number of Guests</span>
               </div>
               <div class="col-12 col-sm-7">
-                <label class="radio-inline"><input type="radio" name="optradio"> 1</label>
-                <label class="radio-inline"><input type="radio" name="optradio"> 2</label>
-                <label class="radio-inline"><input type="radio" name="optradio"> 3</label>
-                <label class="radio-inline"><input type="radio" name="optradio"> 4</label>
-                <label class="radio-inline"><input type="radio" name="optradio"> 5</label>
-                <label class="radio-inline"><input type="radio" name="optradio"> 6</label>
+                <label class="radio-inline label1"><input type="radio" name="optradio"> 1</label>
+                <label class="radio-inline label1"><input type="radio" name="optradio"> 2</label>
+                <label class="radio-inline label1"><input type="radio" name="optradio"> 3</label>
+                <label class="radio-inline label1"><input type="radio" name="optradio"> 4</label>
+                <label class="radio-inline label1"><input type="radio" name="optradio"> 5</label>
+                <label class="radio-inline label1"><input type="radio" name="optradio"> 6</label>
               </div>
             </div>
             <br>
@@ -228,34 +228,34 @@
                   <label class="radio-inline"><input type="radio" name="optradio"> 6</label>
                 </div>
               </div> <!-- End count -->
+              <br>
               <div class="input-group row">
-                <div class="col-auto col-4 ml-3">
+                <div class="col-auto  ml-3">
                   <span class="input-group-text" id="">Section </span>
                 </div>
-                <div class="btn-group col-sm-4" data-toggle="buttons">
-                  <label class="btn btn-primary active">
-                    <input type="radio" name="options" id="optionNonSmoking" autocomplete="off" checked> On the spot
+                <div class="btn-group col-sm-4 ml-3" data-toggle="buttons">
+                  <label class="btn btn-outline-primary active ">
+                    <input type="radio" name="options" checked> On the spot
                   </label>
-                  <label class="btn btn-primary">
-                    <input type="radio" name="options" id="optionSmoking" autocomplete="off">
-                    Take away
+                  <label class="btn btn-outline-primary ">
+                    <input type="radio" name="options" >Take away
                   </label>
                 </div>
               </div> <!-- End Smoking -->
               <!-- Table Time -->
-              <div class='input-group date row'>
+              <br>
+              <div class="input-group date row">
                 <div class="col-auto ml-3">
                   <span class="input-group-text" id="">Date and Time</span>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm ml-3">
                   <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-9">
                       <div class="input-group">
                         <input type='date' class="form-control" />
-
                       </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                       <div class="input-group">
                         <input type='time' class="form-control" />
 
@@ -275,79 +275,7 @@
     </div>
   </div>
   <!-- Add model -->
-  <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title"> Reserve a Table </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="card-body">
-            <div class="form-group">
-              <!-- Table Guess Count -->
-              <div class="input-group row">
-                <div class="col-auto ml-3">
-                  <span class="input-group-text" id="">Number of Guests</span>
-                </div>
-                <div class="col-12 col-sm">
-                  <label class="radio-inline"><input type="radio" name="optradio"> 1</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 2</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 3</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 4</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 5</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 6</label>
-                </div>
-              </div> <!-- End count -->
-              <div class="input-group row">
-                <div class="col-auto col-4 ml-3">
-                  <span class="input-group-text" id="">Section </span>
-                </div>
-                <div class="btn-group col-sm-4" data-toggle="buttons">
-                  <label class="btn btn-primary active">
-                    <input type="radio" name="options" id="optionNonSmoking" autocomplete="off" checked> On the spot
-                  </label>
-                  <label class="btn btn-primary">
-                    <input type="radio" name="options" id="optionSmoking" autocomplete="off">
-                    Take away
-                  </label>
-                </div>
-              </div>
-              <!-- Table Time -->
-              <div class='input-group date row'>
-                <div class="col-auto ml-3">
-                  <span class="input-group-text" id="">Date and Time</span>
-                </div>
-                <div class="col-12 col-sm">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="input-group">
-                        <input type='date' class="form-control" />
-
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="input-group">
-                        <input type='time' class="form-control" />
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- End Table Time -->
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Reserve Table</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div> <!-- End Modal Body -->
-      </div>
-    </div>
-  </div>
+  
   
   <footer class="footer">
     <div class="container">
