@@ -60,9 +60,10 @@
 
         </div>
         <div class="col-12 col-sm-3 align-self-center" id="rtabel">
-          <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="tooltip" data-html="true"
-            title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom"
-            href="#reserveform">Reserve Table</a>
+          <a role="button" class="btn btn-block nav-link btn-warning" 
+          data-toggle="tooltip" data-html="true"  
+          title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom"
+            href="#reserveform"  >Reserve Table</a>
         </div>
       </div>
     </div>
@@ -121,7 +122,7 @@
             <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
               <span class="carousel-control-next-icon"></span>
             </a>
-            
+
           </div>
 
         </div>
@@ -278,49 +279,49 @@
           <div class="card-body">
             <div class="form-group">
               <!-- Table Guess Count -->
-              <div class="input-group row">
-                <div class="col-auto ml-3">
-                  <span class="input-group-text" id="">Number of Guests</span>
+              <div class="input-group row ">
+                <div  class="col-sm-3 float-left">
+                  <span  id="">Number of Guests</span>
                 </div>
                 <div class="col-12 col-sm">
-                  <label class="radio-inline"><input type="radio" name="optradio"> 1</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 2</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 3</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 4</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 5</label>
-                  <label class="radio-inline"><input type="radio" name="optradio"> 6</label>
+                  <label class="radio-inline label1"><input type="radio" name="optradio"> 1</label>
+                  <label class="radio-inline label1"><input type="radio" name="optradio"> 2</label>
+                  <label class="radio-inline label1"><input type="radio" name="optradio"> 3</label>
+                  <label class="radio-inline label1"><input type="radio" name="optradio"> 4</label>
+                  <label class="radio-inline label1"><input type="radio" name="optradio"> 5</label>
+                  <label class="radio-inline label1"><input type="radio" name="optradio"> 6</label>
                 </div>
               </div> <!-- End count -->
               <br>
-              <div class="input-group row">
-                <div class="col-auto  ml-3">
-                  <span class="input-group-text" id="">Section </span>
+              <div class="input-group row input-group  float-left">
+                <div class="col-sm-2" >
+                  <span >Section </span>
                 </div>
-                <div class="btn-group col-sm-4 ml-3" data-toggle="buttons">
-                  <label class="btn btn-outline-primary active ">
-                    <input type="radio" name="options" checked> On the spot
+                <div class="btn-group col-sm-6 ml-4" data-toggle="buttons">
+                  <label class="btn btn-success active ">
+                    <input type="radio" name="options" id="optionNonSmoking" autocomplete="off" checked> Non-Smoking
                   </label>
-                  <label class="btn btn-outline-primary ">
-                    <input type="radio" name="options">Take away
+                  <label class="btn btn-danger ">
+                    <input type="radio" name="options" id="optionSmoking" autocomplete="off"> Smoking
                   </label>
                 </div>
               </div> <!-- End Smoking -->
               <!-- Table Time -->
               <br>
               <div class="input-group date row">
-                <div class="col-auto ml-3">
-                  <span class="input-group-text" id="">Date and Time</span>
+                <div class="col-3">
+                  <span  id="">Date and Time</span>
                 </div>
                 <div class="col-12 col-sm ml-3">
                   <div class="row">
-                    <div class="col-lg-9">
+                    <div class="col-lg-6">
                       <div class="input-group">
-                        <input type='date' class="form-control" />
+                        <input type='text' class="form-control" placeholder="Date" />
                       </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                       <div class="input-group">
-                        <input type='time' class="form-control" />
+                        <input type='text' class="form-control" placeholder="Time" />
 
                       </div>
                     </div>
