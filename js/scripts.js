@@ -21,4 +21,12 @@ $(document).ready(function () {
       $("#carouselButton").children("span").removeClass('fa-play');
       $("#carouselButton").children("span").addClass('fa-pause');
     }
+    
+  });
+  $('#reserve-button').click(function (){
+    $('#reserveModal').modal('toggle');
+  });
+//   Week4 Assignment Task3
+  $('#login-Btn').click(function (){
+    $('#loginModal').modal('toggle');
   });

@@ -5,44 +5,46 @@ $background-pale: #D1C4E9;
 
 // Height variables
 $carousel-item-height: 300px;
+
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
-    margin:0px auto;
+    margin: 0px auto;
     padding: $pad-up-dn $pad-left-right;
 }
-.row-header{
-    @include zero-margin(0px,0px);
+
+.row-header {
+    @include zero-margin(0px, 0px);
 }
 
 .row-content {
-    @include zero-margin(50px,0px);
+    @include zero-margin(50px, 0px);
     border-bottom: 1px ridge;
-    min-height:400px;
+    min-height: 400px;
 }
 
-.footer{
+.footer {
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
 }
 
 .jumbotron {
-    @include zero-margin(70px,30px);
+    @include zero-margin(70px, 30px);
     background: $background-light ;
-    color:floralwhite;
+    color: floralwhite;
 }
 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
 }
 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
 }
 
 .navbar-dark {
-     background-color: $background-dark;
+    background-color: $background-dark;
 }
 
 .tab-content {
@@ -51,23 +53,67 @@ body{
     border-bottom: 1px solid $lt-gray;
     padding: 10px;
 }
-.carousel {
-    background:$background-dark;
 
-    .carousel-item {
-        height: $carousel-item-height;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-        }
+.carousel {
+    background:#512DA8;
+  }
+  .carousel-item {
+  height: 300px;
+  }
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+  #carouselButton {
+      right:0px;
+      position: absolute;
+      bottom: 0px;
+      z-index: 1;
+  }
+.carousel-caption {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fdfdfd;
+    text-shadow: none; }
+
+.modal-header {
+    background-color: $background-dark;
+    color: white;
+
+    .close {
+        color: floralwhite;
     }
 }
 
-#carouselButton {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
+.modal-body {
+    background-color:#bda1ec;
+}
+
+.modal-footer {
+    background-color:#9575CD;
+}
+
+.modal-footer1 {
+    padding-left: 5.9em;
+    justify-content: flex-start;
+}
+
+.modal-content1 {
+    width: 130%;
+}
+
+.label1 {
+    padding-right: inherit;
+}
+
+.modal-header1 {
+    background-color: #512DA8;
+    color: black;
 }
