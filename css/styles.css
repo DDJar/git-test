@@ -55,24 +55,17 @@ body {
   bottom: 0px;
   z-index: 1;
 }
-.modal-content1{
-  width: 130%;
-}
 .modal-header1{
-  background-color: white;
-  color: black;
-}
+    background-color: white;
+    color: black;
+  }
 .label1{
-  padding-right: inherit;
-}
-.badge-warning{
-  color: white;
-   font-size: xx-large;
- }
- .card-body{
-   margin: 15px 0px;
- }
- .modal-header{
-   background-color: #512DA8;
-   color: white;
- }
+    padding-right: inherit;
+  }
+.modal-footer1{
+    padding-left: 5.9em;
+    justify-content: flex-start;
+  }
+  .modal-content1{
+    width: 130%;
+  }
