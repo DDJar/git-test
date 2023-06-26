@@ -11,10 +11,7 @@
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "lite": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+git+https://github.com/DDJar/git-test.git"
-  },
+ 
   "author": "",
   "license": "ISC",
   "homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",
